@@ -6,6 +6,9 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>index</title>
+    <link rel="stylesheet/less" type="text/css" href="./less/index.less">
+    <script src="https://cdn.bootcss.com/less.js/1.7.2/less.min.js"></script>
+    <script>less.watch();</script>
 </head>
 <body>
 <header class="header">
@@ -35,23 +38,25 @@
         </div>
         <div class="tips__item tips__item_i_2">
             <div class="tips__title">更聚焦</div>
-            <div class="text">专注特定领域</div>
+            <div class="tips__text">专注特定领域</div>
         </div>
         <div class="tips__item tips__item_i_3">
             <div class="tips__title">更贴心</div>
-            <div class="text">全程助教跟踪</div>
+            <div class="tips__text">全程助教跟踪</div>
         </div>
     </div>
 </div>
 <div class="recommend">
     <div class="recommend-course">
         <div class="recommend-course__cover"><img src="imgs/b1.jpg" alt=""></div>
-        <div class="recommend-course__plan"></div>
-        <h2 class="caption">HTML5与CSS3实现动态网页</h2>
-        <div class="recommend-course__times">24课<span class="recommend-course__preson">106人在学</span></div>
-        <div class="recommend-course__desc">HTML5动态网页带你走进前端的世界！</div>
+        <div class="recommend-course__plan">
+            <h2 class="caption">HTML5与CSS3实现动态网页</h2>
+            <div class="recommend-course__times">24课<span class="recommend-course__person">106人在学</span></div>
+            <div class="recommend-course__desc">HTML5动态网页带你走进前端的世界！</div>
+        </div>
+        <div class="recommend-course__price"><i>¥</i>399.00</div>
     </div>
-    <div class="recommend__price"><i>¥</i>399.00</div>
+
 </div>
 
 <div class="courses">
@@ -69,7 +74,7 @@
             <div class="standard-course__plan">
                 <div class="standard-course__caption">SSH框架探幽</div>
                 <div class="standard-course__category">Spring / Struts2 / Hibernate</div>
-                <div class="standard-course__times">11课<span class="standard-course__preson">792人学习</span></div>
+                <div class="standard-course__times">11课<span class="standard-course__person">792人学习</span></div>
             </div>
         </div>
         <div class="standard-course">
@@ -77,7 +82,7 @@
             <div class="standard-course__plan">
                 <div class="standard-course__caption">SSH框架探幽</div>
                 <div class="standard-course__category">Spring / Struts2 / Hibernate</div>
-                <div class="standard-course__times">11课<span class="standard-course__preson">792人学习</span></div>
+                <div class="standard-course__times">11课<span class="standard-course__person">792人学习</span></div>
             </div>
         </div>
         <div class="standard-course">
@@ -85,7 +90,7 @@
             <div class="standard-course__plan">
                 <div class="standard-course__caption">SSH框架探幽</div>
                 <div class="standard-course__category">Spring / Struts2 / Hibernate</div>
-                <div class="standard-course__times">11课<span class="standard-course__preson">792人学习</span></div>
+                <div class="standard-course__times">11课<span class="standard-course__person">792人学习</span></div>
             </div>
         </div>
         <div class="standard-course">
